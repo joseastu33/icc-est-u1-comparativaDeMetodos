@@ -1,18 +1,17 @@
-## Getting Started
+# Universidad Politécnica Salesiana 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Estructura de datos
+## Estudiante: Jose Astudillo
 
-## Folder Structure
+## Practica 2.1 Recursividad
+### Fecha: 11/05/2026
+### Descripción: 
 
-The workspace contains two folders by default, where:
+Abordé el concepto de recursividad como acción de llamar continuamente a una función para lograr un cierto resultado, conociendo
+su caso base (condición para que esta se detenga) y la logica u operaciones detras (caso recursivo), considerando también que ciertos métodos de ordenamiento como Quick Sort o Merge Sort
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## DESCRIPCION DE LOS EJERCICIOS REALIZADOS
+# Ejercicio 3
+Este ejercicio se trata de la suma de cada uno de los digitos de un numero, tomé en cuenta que se trata de un entero, no String o
+algún arreglo, entonces algunas ideas para realizar la suma quedaron descartadas, pero en si la lógica estuvo en sumar el residuo de dichos numeros a través de la operacion mod ("%") y dividiendo para /10 con cada llamada de la funcion, aplicando asi el concepto de recursividad
+![alt text](image.png)
