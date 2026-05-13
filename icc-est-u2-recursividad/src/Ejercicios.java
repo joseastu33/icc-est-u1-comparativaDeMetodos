@@ -49,7 +49,13 @@ public class Ejercicios {
                 //caso recursivo
                 //6 + sumaDigitos(45)
             }
-            return numero%10 + sumaDigitos(numero/10); //%10 saca el residuo, suma de residuos
+            return numero%10 + sumaDigitos(numero/10); //%10 saca el residuo, suma de residuos, /10, 45.6, residuo = 6
+            //456
+            //456 --- /10
+            //45.(6) --- /10
+            //(4).56 --- /10
+            //0...
+            //le hace el mod y ese mod le suma al numero que es dividio para 10
             }
         }
 

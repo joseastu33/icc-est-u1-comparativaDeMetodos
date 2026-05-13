@@ -16,5 +16,11 @@ public class App {
         }
         /* archivo en verde: preparado para hacer un commit(GUARDAR)
          archivo en amarillo: ya existe en Git, pero ha sido modificado */
+         // git 
     }
 }
+// clonar un Proyecto en GIT
+//con la URL sirve para clonar
+//abrir github,  luego Ctrl + Shift + P
+// buscar git clone y colocar la URL: https://github.com/joseastu33/icc-est-u4-complejidad.git
+// elegir una carpeta destino para clonar el archivo (ESTRUCTURA DE DATOS)
